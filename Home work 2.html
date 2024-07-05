@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To Do List</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-yellow-100 flex items-center justify-center min-h-screen">
+    <div class="bg-gray-800 text-white rounded-lg p-6 shadow-lg w-2/5 border-blue-800 border-2">
+        
+        <!--heading start-->
+        <h1 class="text-center text-bold text-3xl mb-2 ">To Do List</h1>
+        <!--heading end-->
+
+        <!--start serch and button-->
+        <div class="mb-4 flex text-center justify-center ">
+            <input id="new-Task">
+            <button id="add-btn" class="bg-red-500 p-2 rounded-lg mx-2">Add</button>
+            <!--end serch and button-->
+        </div>
+
+            <!--start task list-->
+                <div id="task list">
+                    <h1 class="text-center text-xl  mb-5">Task List</h1>
+                </div>
+
+                <div class="flex item-center mb-2 border p-2 rounded-lg">
+                    <input type="checkbox" class="mr-2">
+                    <span  class="flex-1 text-xl">wash dishes</span>
+                    <button class="text-red-400">Delete</button>
+                    <button class="text-red-400 ml-3">Edit</button>
+                </div>
+
+                <div class="flex item-center mb-2 border p-2 rounded-lg ">
+                    <input type="checkbox" class=" mr-2 ">
+                    <span  class="flex-1 text-xl1 line-through">edit resume</span>
+                    <button class="text-red-400">Delete</button>
+                    <button class="text-red-400 ml-3">Edit</button>
+                </div>
+
+                <div class="flex item-center mb-2 border p-2 rounded-lg">
+                    <input type="checkbox" class="mr-2">
+                    <span  class="flex-1 text-xl">finish codedex course</span>
+                    <button class="text-red-400 ">Delete</button>
+                    <button class="text-red-400 ml-3">Edit</button>
+                </div>
+                
+            <!--end task list-->
+    
+            <hr class="border-blue-800 mb-2 my-5 border-[1.5px] ">
+
+            <div class="text-center text-xl text-bold">
+            <span>Completed: 1  I  Uncompleted: 2</span>
+            </div>
+        
+
+        </div>
+
+    </div>
+    
+</body>
+</html>
